@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <img src="bank1.png" alt="BANK" class="center">
+        <!-- <h1 style="color:#4CAF50;"><marquee>WELCOME TO NET BANKING</marquee></h1> -->
+
+        <ul class="topnav"> 
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li class="dropdown">
+                    <a href="#" class="dropbtn">Services</a>
+                    <div class="dropdown-content">
+                        <a href="account.html">Account</a>
+                        <a href="loan.html">Deposit</a>
+                        <a href="cards.html">Loan</a>
+                        <a href="deposit.html">Cards</a>
+                    </div>
+                </li>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="Registration.html">Register</a></li>
+            <li><a class="active" href="contact.html">Contact Us</a></li>
+            
+        </ul>
+
+<section class="main-section" id="contact" style="background:silver;">
+        <div>
+            <form method="POST" action="">
+                <fieldset>
+                    <legend style="color:#7cc576">Contact Us Today!</legend>
+                    <input class="form-control" placeholder="Enter your Name" type="text" name="first_name" autofocus required minlength="2">
+                     
+                   <input class="form-control" placeholder="Enter your Email" type="email"  name="email" required>
+                       <input class="form-control" placeholder="Subject" type="text" name="subject" required>
+                       <textarea class="form-control" rows="10" name="message" placeholder="Comments" required></textarea>
+                        
+                    <button type="submit" name="login">Send </button>
+
+                </fieldset>
+            </form>
+        </div>
+        </section>
+        
+
+
+    </body>
+
+</html>
